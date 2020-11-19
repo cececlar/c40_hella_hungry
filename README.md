@@ -4,7 +4,8 @@ Read the instructions thoroughly before starting your project.
 
 ## Setup
 
-- `git clone` this repo
+- Fork this repo
+- `git clone` your forked repo
 - `cd` into it.
 - `yarn install`
 - `cd client && yarn install`
@@ -37,18 +38,18 @@ NOTE: Heroku specifically runs `npm start`, so don't remove that from your packa
 - [ ] You and your team should employ good Git and GitHub collaboration practices.
 - [ ] Your project must have a README.md file explaining what the project does and why it matters. [Here's an example](https://github.com/codeforamerica/howto/blob/master/Good-READMEs.md) of a great README.md template.
 
-| Rubric Criterion                                                                         | Points |
-| ---------------------------------------------------------------------------------------- | ------ |
-| Ability to search or filter, use of React Router                                         | 10     |
-| Code formatting and quality: indentation, variable and file naming conventions, etc.     | 10     |
-| No unused variables or imports, compiler errors                                          | 10     |
-| Proper use of environment variables for API keys or CORS proxy if needed                 | 10     |
-| Overall look and feel of application, well organized CSS files                           | 10     |
-| Well written documentation                                                               | 10     |
-| Use of GitHub issues, branches and commit messages                                       | 10     |
-| Look and feel of demo slide deck                                                         | 10     |
-| Ability to explain code decisions in demo                                                | 10     |
-| Ability to defend code decisions in response to panel questions                          | 10     |
+| Rubric Criterion                                                                     | Points |
+| ------------------------------------------------------------------------------------ | ------ |
+| Ability to search or filter, use of React Router                                     | 10     |
+| Code formatting and quality: indentation, variable and file naming conventions, etc. | 10     |
+| No unused variables or imports, compiler errors                                      | 10     |
+| Proper use of environment variables for API keys or CORS proxy if needed             | 10     |
+| Overall look and feel of application, well organized CSS files                       | 10     |
+| Well written documentation                                                           | 10     |
+| Use of GitHub issues, branches and commit messages                                   | 10     |
+| Look and feel of demo slide deck                                                     | 10     |
+| Ability to explain code decisions in demo                                            | 10     |
+| Ability to defend code decisions in response to panel questions                      | 10     |
 
 ## Bonus
 
