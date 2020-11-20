@@ -9,3 +9,22 @@
 }
 
 /* END DEMO */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  height: 20vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
