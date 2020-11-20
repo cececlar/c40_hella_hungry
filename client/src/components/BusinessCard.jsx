@@ -10,8 +10,8 @@ const BusinessCard = ({ business }) => {
           {business.name} {business.price}
         </Card.Title>
         <Card.Text>
-          {business.location.address1}
-          {business.rating}
+          <p>{business.location.address1}</p>
+          <p className="text-center">Rating: {business.rating}</p>
         </Card.Text>
         <a href={business.url}>
           <Button variant="primary">Visit Site</Button>
