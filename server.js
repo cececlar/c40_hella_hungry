@@ -16,9 +16,27 @@ const getYelpAPI = async () => {
   );
 };
 
+const searchYelpAPI = async (request, response) => {
+  console.log(request.query);
+  const { term } = request.query;
+  return axios.get(
+    `https://api.yelp.com/v3/businesses/search?location=2650 NW 5 Ave, Miami, FL 33127&term=${term}`,
+    { headers: { Authorization: `Bearer ${process.env.YELP_API_KEY}` } }
+  );
+};
+
 app.get('/api/yelp', async (request, response) => {
   try {
     const businessData = await getYelpAPI();
+    response.json(businessData.data.businesses);
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+app.get('/api/search', async (request, response) => {
+  try {
+    const businessData = await searchYelpAPI(request, response);
     response.json(businessData.data.businesses);
   } catch (error) {
     console.log(error);
