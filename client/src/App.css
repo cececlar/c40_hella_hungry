@@ -19,17 +19,28 @@
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-body {
-  height: 20vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
 .form-container {
   display: flex;
   justify-content: center;
+}
+
+.no-results {
+  color: red;
+  margin: 1rem;
+}
+
+input {
+  margin: 5px;
 }

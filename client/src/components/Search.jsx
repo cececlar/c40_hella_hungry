@@ -48,7 +48,7 @@ const Search = () => {
       </div>
       <div className="cards-container">
         {errorMessage ? (
-          <div>{errorMessage}</div>
+          <div className="no-results">{errorMessage}</div>
         ) : (
           searchResults.map((business) => {
             return (
