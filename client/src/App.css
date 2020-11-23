@@ -19,6 +19,7 @@
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-body {
@@ -32,4 +33,12 @@
 .form-container {
   display: flex;
   justify-content: center;
+}
+
+input {
+  margin: 5px;
+}
+
+.no-results {
+  margin: 1rem;
 }
